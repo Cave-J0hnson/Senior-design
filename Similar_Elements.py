@@ -1,6 +1,6 @@
 '''
 Input for this code block is 'binary_similarities_with_sg.json'
-Output for this code block is a dictionary named 'elemental_similarities'
+Output for this code block is a json file named 'elemental_similarities.json'
 '''
 
 '''
@@ -10,7 +10,7 @@ import json
 import time
 
 similarities = json.load(open('binary_similarities_with_sg.json','r')) # read in the data
-# short_list = json.load(open('short_list_similarities.json', 'r'))
+# short_list = json.load(open('short_list_similarities.json', 'r')) # this is for 
 
 elemental_similarities = {} # initialize an empty elemental similarity matrix
 
